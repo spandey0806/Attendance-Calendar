@@ -9,7 +9,7 @@ const Body = () => {
   const [attendanceStatus, setAttendanceStatus] = useState({});
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/attendance/get-all-attendance")
+    fetch("http://localhost:5000/api/attendance/get-attendance")
       .then((response) => response.json())
       .then((data) => {
         const statusMap = {};
