@@ -20,31 +20,6 @@ A simple Attendance Calendar implemented using Node.js, Express.js, React.js, an
 - Tailwind CSS
 - Firebase
 
-## Folder Structure
-
-attendance-app/
-|-- client/
-| |-- public/
-| |-- src/
-| |-- components/
-| |-- Body.js
-| |-- AttendanceModal.js
-| |-- App.js
-| |-- package.json
-|-- server/
-| |-- controllers/
-| |-- attendanceController.js
-| |-- routes/
-| |-- attendanceRoutes.js
-| |-- models/
-| |-- Attendance.js
-| |-- db.js
-| |-- server.js
-| |-- package.json
-|-- .env.example
-|-- README.md
-|-- package.json
-
 ## API Endpoints
 
 - `POST /api/attendance/mark-attendance` - Mark attendance for a specific date.
