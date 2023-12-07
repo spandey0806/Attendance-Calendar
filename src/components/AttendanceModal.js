@@ -1,4 +1,3 @@
-// src/components/AttendanceModal.js
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Radio } from "antd";
 
@@ -22,7 +21,7 @@ const AttendanceModal = ({ visible, onCancel, onOk, attendanceStatus }) => {
   return (
     <Modal
       title="Mark Attendance"
-      visible={visible}
+      open={visible}
       onCancel={onCancel}
       footer={[
         <Button key="cancel" onClick={onCancel}>
